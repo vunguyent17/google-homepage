@@ -1,0 +1,23 @@
+[33mcommit 98fc176072b29d838eb6aa24923cc4b61c73e713[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: vunguyent17 <vu.nguyentri17@protonmail.com>
+Date:   Wed Aug 5 12:42:42 2020 +0700
+
+    EDIT CONTENTS IN HTML AND ADD VARIABLES TO CSS
+    
+    HTML file:
+    . Change footer2 contents
+    . Change footer3 contents
+    CSS file
+    . Replace color by css variables
+
+[33mcommit 29ac906dfe1fe205af4ab11f652fd659560e0db9[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: vunguyent17 <vu.nguyentri17@protonmail.com>
+Date:   Wed Aug 5 12:18:14 2020 +0700
+
+    Add html and css files
+
+[33mcommit 7c33d398cd051e52ef7963c6eeef8e55f69c45df[m
+Author: vunguyent17 <vu.nguyentri17@protonmail.com>
+Date:   Tue Aug 4 16:19:20 2020 +0700
+
+    Add README.md file

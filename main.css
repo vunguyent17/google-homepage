@@ -69,19 +69,27 @@ footer
     padding-top: 0.5rem;
 }
 
-.footer2 a, .footer1 p {
+.footer2 a, .footer1 p{
     margin-left: 2rem;
     color: gray;
     text-decoration: none;
 }
-
+#Language{
+    font-size: 12pt;
+    color: black;
+}
+#Language a{
+    margin-left: 1rem;
+    color: blue;
+    text-decoration: none;
+}
 .footer3 a, header a {
     margin-right: 2rem;
     color: gray;
     text-decoration: none;
 }
 
-a:hover{
+a:hover, #Language a:hover{
     text-decoration: underline;
 }
 
@@ -97,14 +105,14 @@ button {
 }
 
 
-#Login
+#Signin
 {
     margin-left: 0px;
     background-color: var(--bluetheme);
     color: white;
 }
 
-#Login:hover
+#Signin:hover
 {
     box-shadow: 0 3px 3px rgba(66, 133, 244,0.19);
 }
@@ -156,6 +164,12 @@ input:hover{
     color: var(--lettertheme);
     opacity: 0.5;
 }
+
+.AppButton{
+    position: relative;
+    top: 0.5rem;
+}
+
 
 
 
