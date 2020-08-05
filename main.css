@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    font-family: Roboto, 'Times New Roman';
+    color:  #d2d2d2;
+    display: grid;
+    grid-template-rows: auto 75% auto;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer"
+}
+header
+{
+ background-color: white;
+ padding: 1% 2% 1% 1%;
+ grid-area: header;
+ text-align: right;
+ }
+
+main
+{
+    background-color: white;
+    border-color: black;
+    grid-area: content;
+    text-align: center;
+    padding-top: 5%
+}
+
+footer
+{
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "footer1 footer1"
+    "footer2 footer3";
+}
+
+.footer1
+{
+    background-color: #f1f1f1;
+    color:  gray;
+    grid-area: footer1;
+    padding-top: 0.5rem;
+    border: solid 1px #d2d2d2;
+}
+
+.footer2
+{
+    background-color: #f1f1f1;
+    grid-area: footer2;
+    text-align: left;
+    padding-top: 0.5rem;
+}
+
+.footer3 
+{
+    background-color: #f1f1f1;
+    grid-area: footer3;
+    text-align: right;
+    padding-top: 0.5rem;
+}
+
+.footer2 a, .footer1 p {
+    margin-left: 2rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer3 a, header a {
+    margin-right: 2rem;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button {
+    height: 2.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 5px 10px 10px 10px;
+    background-color: #f1f1f1;
+    border: solid 1px transparent ;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+
+#Login
+{
+    margin-left: 0px;
+    background-color: #4285F4;
+    color: white;
+}
+
+#Login:hover
+{
+    box-shadow: 0 3px 3px rgba(66, 133, 244,0.19);
+}
+
+img{
+    width: 272px;
+    height: auto;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+input{
+    width: 36%;
+    height: 3rem;
+    font-family: Roboto;
+    font-size: 18px;
+    border: none; 
+    border: solid 1px #d2d2d2;
+    border-radius: 2rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: transparent;
+}
+
+input:hover{
+    border: none; 
+    box-shadow: 0 3px 3px rgba(0,0,0,0.19), 4px 0 4px rgba(0,0,0,0.23);
+}
+
+
+#ButtonSearch {
+    margin: 2% 10px 2% auto;
+}
+
+#ButtonSearch:hover, #LuckySearch:hover{
+    border: solid 1px #d2d2d2;;
+    color: black;
+}
+#LuckySearch {
+    margin: 2% auto 2% 10px;
+}
+
+.iconSearch{
+    position: relative;
+    right: auto;
+    top: 0.1rem;
+    bottom: auto;
+    pointer-events: none;    
+    left: 3%;
+    color: #d2d2d2;
+    opacity: 0.5;
+}
+
+
+
