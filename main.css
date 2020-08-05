@@ -2,10 +2,13 @@
 
 body
 {
+    --lettertheme: #d2d2d2;
+    --graytheme: #f1f1f1;
+    --bluetheme:  #4285F4;
     height: 100vh;
     width: 100vw;
     font-family: Roboto, 'Times New Roman';
-    color:  #d2d2d2;
+    color: var(--lettertheme);
     display: grid;
     grid-template-rows: auto 75% auto;
     grid-template-areas:
@@ -43,7 +46,7 @@ footer
 
 .footer1
 {
-    background-color: #f1f1f1;
+    background-color: var(--graytheme);
     color:  gray;
     grid-area: footer1;
     padding-top: 0.5rem;
@@ -52,7 +55,7 @@ footer
 
 .footer2
 {
-    background-color: #f1f1f1;
+    background-color: var(--graytheme);
     grid-area: footer2;
     text-align: left;
     padding-top: 0.5rem;
@@ -60,7 +63,7 @@ footer
 
 .footer3 
 {
-    background-color: #f1f1f1;
+    background-color: var(--graytheme);
     grid-area: footer3;
     text-align: right;
     padding-top: 0.5rem;
@@ -87,7 +90,7 @@ button {
     margin-left: 2%;
     margin-right: 2%;
     padding: 5px 10px 10px 10px;
-    background-color: #f1f1f1;
+    background-color: var(--graytheme);
     border: solid 1px transparent ;
     border-radius: 2px;
     font-size: 18px;
@@ -97,7 +100,7 @@ button {
 #Login
 {
     margin-left: 0px;
-    background-color: #4285F4;
+    background-color: var(--bluetheme);
     color: white;
 }
 
@@ -119,7 +122,7 @@ input{
     font-family: Roboto;
     font-size: 18px;
     border: none; 
-    border: solid 1px #d2d2d2;
+    border: solid 1px var(--lettertheme);
     border-radius: 2rem;
     padding: 1rem 3rem 1rem 3rem;
     background-color: transparent;
@@ -136,7 +139,7 @@ input:hover{
 }
 
 #ButtonSearch:hover, #LuckySearch:hover{
-    border: solid 1px #d2d2d2;;
+    border: solid 1px var(--lettertheme);;
     color: black;
 }
 #LuckySearch {
@@ -150,7 +153,7 @@ input:hover{
     bottom: auto;
     pointer-events: none;    
     left: 3%;
-    color: #d2d2d2;
+    color: var(--lettertheme);
     opacity: 0.5;
 }
 
